@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Speed Typing Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <h2 class="top-bar__text">Speed Typing Game</h2>
+    </div>
+
+    <div class="game">
+        <p class="game__message">Type the given word within <span id="msg_num">5</span> seconds:</p>
+        <h1 class="game__word">space</h1>
+        <input type="text" class="game__input">
+        <p class="game__finish">Type in the word!</p>
+        <div class="game__info">
+            <p class="game__info-time">Time Left: <span class="time">0</span></p>
+            <p class="game__info-score">Score: <span class="score">8</span></p>
+        </div>
+        <div class="game__instructions">
+            <h2 class="game__instructions-title">Instruction</h2>
+            <p class="game__instructions-info">Type each word in the given amount of seconds to score. To play again, just type the current word. Your score will reset.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

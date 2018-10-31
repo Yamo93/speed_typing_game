@@ -1,0 +1,64 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #30336b;
+  color: #f9ca24; }
+
+.top-bar {
+  width: 100%;
+  height: 90px;
+  background-color: #181a3698;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.game {
+  width: 60%;
+  margin: 50px auto;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .game__message {
+    margin-bottom: 40px;
+    font-size: 22px; }
+  .game__word {
+    font-weight: 300;
+    font-size: 64px;
+    margin-bottom: 25px; }
+  .game__input {
+    width: 70%;
+    border-radius: 5px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #f9ca24;
+    font-family: inherit;
+    font-size: 24px;
+    padding: 3px;
+    margin-bottom: 20px; }
+  .game__finish {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px; }
+  .game__info {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 30px; }
+    .game__info > * {
+      font-size: 30px; }
+  .game__instructions {
+    width: 70%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+    .game__instructions > * {
+      text-align: center; }
